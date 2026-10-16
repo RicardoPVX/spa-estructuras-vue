@@ -6,6 +6,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Nombre del repositorio: necesario para que funcione en GitHub Pages
+  base: '/spa-estructuras-vue/',
   plugins: [
     vue(),
     vueDevTools(),
