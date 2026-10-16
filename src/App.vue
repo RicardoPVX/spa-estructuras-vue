@@ -33,6 +33,7 @@ import { RouterLink, RouterView } from 'vue-router'
 }
 
 .titulo {
+  color: #fff;
   margin: 0 0 1rem;
   font-size: 1.6rem;
 }
